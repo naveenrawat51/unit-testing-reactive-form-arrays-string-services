@@ -1,0 +1,6 @@
+.is-invalid{
+    color: green;
+}
+.invalid-feedback{
+    color: red;
+}

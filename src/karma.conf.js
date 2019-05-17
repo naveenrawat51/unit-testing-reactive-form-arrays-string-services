@@ -20,6 +20,10 @@ module.exports = function (config) {
       reports: ['html', 'lcovonly'],
       fixWebpackSourcePaths: true
     },
+    angularCli: {
+      environment: 'dev',
+      codeCoverage: true
+    },
     reporters: ['progress', 'kjhtml'],
     port: 9876,
     colors: true,
